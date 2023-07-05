@@ -109,10 +109,55 @@
 }
 .nav-cart{
   display: flex;
+  gap: 2px;
+  
 }
 .cart{
-  font-size: 14px;
+  font-size: 20px;
 }
 .cart-text{
+  margin-top: 10px;
+  font-weight: 400;
+
+  font-size: 12px;
+}
+.panel{
+  background-color:#222f3d;
+  height: 40px;
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
   
+  
+   
+
+}
+.menu{
+  font-size: 14px;
+  margin-right: 40px;
+  
+}
+.option p{
+  display: inline;
+  font-size: 14px;
+  
+
+}
+.option{
+  width: 70%;
+  margin-left: 15px;
+}
+.deal{
+  font-size: 14px;
+  font-weight: 700;
+
+}
+
+.hero{
+  background-image: url(resources/hero_image.jpg);
+  height: 600px;
+  background-size: cover;
+
 }
