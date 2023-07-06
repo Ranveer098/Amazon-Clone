@@ -237,7 +237,21 @@ ul a {
 }
 
 .panel3 {
-  border-top: 5px solid white;
+  border-top: 0.1px solid white;
   background-color: #0f1111;
+  color: #dddd;
+  height:70px;  
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+
   
+  
+}
+.logo2{
+  background-image: url(resources/amazon_logo.png);
+  height: 50px;
+  width: 100px;
+  background-size: cover;
+
 }
